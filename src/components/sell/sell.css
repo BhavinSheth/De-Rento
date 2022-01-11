@@ -1,0 +1,58 @@
+.sell-bg {
+  background-color: black;
+  padding: 3rem 0;
+  display: grid;
+  justify-items: center;
+  gap: 2rem;
+  color: var(--clr-main);
+}
+
+.sell-header {
+  display: grid;
+  justify-items: center;
+}
+.sell-header h4 {
+  color: var(--clr-grey-10);
+}
+
+.form-control {
+  display: grid;
+  grid-template-columns: 0.3fr auto;
+  gap: 1rem;
+  border-radius: 35px;
+  width: 85%;
+  padding: 2rem;
+  margin: 0 auto;
+  background-color: var(--clr-grey-1);
+  align-items: center;
+  box-shadow: var(--light-shadow-white);
+  transition: all 0.35s ease-out;
+}
+.form-control:hover {
+  box-shadow: var(--dark-shadow-white);
+}
+/* 
+.input{
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: flex-start;
+} */
+
+.curve {
+  border-radius: 15px;
+  padding: 0.4rem 1rem;
+  background-color: black;
+  color: var(--clr-grey-10);
+  border: none;
+  outline: none;
+}
+
+.desc {
+  align-self: flex-start;
+}
+
+.input-text {
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}

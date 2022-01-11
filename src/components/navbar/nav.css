@@ -4,8 +4,11 @@ Navbar
 ===============
 */
 nav {
+  z-index: 2;
   background: black;
   box-shadow: var(--dark-shadow);
+  position: fixed;
+  width: 100%;
 }
 .nav-header {
   display: flex;
@@ -39,10 +42,10 @@ nav {
   transition: var(--transition);
 }
 .links a:hover {
-  background: rgba(201, 201, 201, 0.253);
+  background: #141414;
   color: var(--clr-main);
   padding-left: 1.5rem;
-  border-left: 0.4rem solid var(--clr-shade);
+  border-left: 0.4rem solid var(--clr-main);
 }
 .social-icons {
   display: none;
@@ -57,7 +60,7 @@ nav {
 }
 @media screen and (min-width: 800px) {
   .nav-center {
-    max-width: 1170px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     align-items: center;

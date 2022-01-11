@@ -1,0 +1,13 @@
+.divider {
+  height: 0.35rem;
+
+  background: radial-gradient(
+    circle at 50% 50%,
+    #fcee21,
+    #ecdf1f,
+    #ddd11d,
+    #cec31b,
+    #bfb519,
+    #b0a717
+  );
+}
