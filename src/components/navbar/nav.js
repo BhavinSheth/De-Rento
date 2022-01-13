@@ -9,17 +9,17 @@ function Nav() {
   const container = useRef(null);
   let [show, setShow] = useState(false);
   let [width, setWidth] = useState(window.innerWidth);
-  let [disp, setDisp] = useState(false);
-  function addClass() {
-    setWidth(window.innerWidth);
-    {
-      width > 800 ? setDisp(true) : setDisp(false);
-    }
-  }
+  // let [disp, setDisp] = useState(false);
+  // function addClass() {
+  //   setWidth(window.innerWidth);
+  //   {
+  //     width > 800 ? setDisp(true) : setDisp(false);
+  //   }
+  // }
 
-  useEffect(() => {
-    window.addEventListener("resize", addClass);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("resize", addClass);
+  // }, []);
   return (
     <nav className="nav-center">
       <div className="nav-header">

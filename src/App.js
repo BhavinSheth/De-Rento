@@ -5,6 +5,7 @@ import Nav from "./components/navbar/nav";
 import Home from "./components/home/home";
 import Sell from "./components/sell/sell";
 import Divider from "./components/divider/divider";
+import Buy from "./components/buy/buy";
 
 function App() {
   const [loading, setloading] = useState(false);
@@ -19,8 +20,9 @@ function App() {
     return (
       <div className="app">
         <Nav />
-        <Home />
-        <Divider />
+        {/* <Home /> */}
+        <Buy />
+        {/* <Divider /> */}
         <Sell />
       </div>
     );

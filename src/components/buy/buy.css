@@ -1,0 +1,117 @@
+.buy {
+  background-color: var(--clr-main);
+  /* background-color: var(--clr-grey-8); */
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 4rem;
+
+  padding: 3rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.product {
+  /* min-width: 25rem; */
+  max-width: 30rem;
+  min-height: 440px;
+  background-color: black;
+  border-radius: 25px;
+  box-shadow: var(--light-shadow);
+  transition: all 0.3s ease-out;
+}
+.product:hover {
+  box-shadow: var(--dark-shadow);
+  cursor: pointer;
+  transform: scale(1.013);
+}
+.img-container {
+  height: 15rem;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.product-img {
+  height: 100%;
+  width: 100%;
+
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.buy-btn {
+  position: absolute;
+
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: var(--clr-shade);
+  border-radius: 50%;
+  border: 0.8rem solid black;
+}
+.buy-btn:hover {
+  background-color: var(--clr-main);
+  color: black !important;
+}
+
+.product-desc {
+  align-items: center;
+  display: grid;
+  gap: 0.99rem;
+  padding: 1rem 1.3rem;
+  line-height: normal;
+  padding-top: 2rem;
+}
+
+.product-row {
+  display: grid;
+  grid-template-columns: 0.3fr auto;
+}
+
+@media screen and (min-width: 800px) {
+  .buy {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .buy {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .buy {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.product-header {
+  margin: 0 auto;
+}
+.product-header p {
+  text-align: center;
+}
+.owner-name {
+  color: white;
+}
+.item-name {
+  color: var(--clr-main);
+  text-transform: uppercase;
+}
+
+.product-info {
+  color: var(--clr-grey-9);
+  text-align: center;
+  line-height: 1.2rem;
+}
+
+.product-price {
+  text-align: center;
+  line-height: 1.2rem;
+}
+.price {
+  text-transform: capitalize;
+  color: var(--clr-main);
+}
+
+.date {
+  color: white;
+}

@@ -1,6 +1,7 @@
 .sell-bg {
   background-color: black;
-  padding: 3rem 0;
+  padding: 4rem 0;
+  padding-bottom: 5rem;
   display: grid;
   justify-items: center;
   gap: 2rem;
@@ -15,28 +16,34 @@
   color: var(--clr-grey-10);
 }
 
-.form-control {
+form {
   display: grid;
-  grid-template-columns: 0.3fr auto;
-  gap: 1rem;
+  gap: 2rem;
   border-radius: 35px;
-  width: 85%;
   padding: 2rem;
   margin: 0 auto;
   background-color: var(--clr-grey-1);
   align-items: center;
+  justify-items: center;
   box-shadow: var(--light-shadow-white);
   transition: all 0.35s ease-out;
 }
-.form-control:hover {
+
+.form-control {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.3fr auto;
+  gap: 1rem;
+}
+form:hover {
   box-shadow: var(--dark-shadow-white);
 }
-/* 
-.input{
-    display: grid;
-    grid-auto-flow: column;
-    justify-items: flex-start;
-} */
+
+@media screen and (min-width: 700px) {
+  .form {
+    width: 70%;
+  }
+}
 
 .curve {
   border-radius: 15px;
