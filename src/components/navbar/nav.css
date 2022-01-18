@@ -35,7 +35,8 @@ nav {
 }
 .links a {
   color: var(--clr-shade);
-  font-size: 1rem;
+  font-size: 1.1rem;
+  text-decoration: none;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -57,7 +58,7 @@ nav {
   transition: var(--transition);
 }
 .show-container {
-  height: 12.5rem;
+  height: 13.4rem;
 }
 @media screen and (min-width: 800px) {
   .nav-center {

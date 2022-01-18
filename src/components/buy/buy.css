@@ -1,17 +1,20 @@
 .buy {
   background-color: var(--clr-main);
-  /* background-color: var(--clr-grey-8); */
+  background-color: var(--clr-grey-8);
+  /* background-color: var(--clr-black-shade); */
+  /* background-color: #222222; */
   display: grid;
   row-gap: 2rem;
   column-gap: 4rem;
 
-  padding: 3rem;
+  padding: 5rem 3rem;
   justify-items: center;
   align-items: center;
 }
 
 .product {
   /* min-width: 25rem; */
+  font-size: 1.1rem;
   max-width: 30rem;
   min-height: 440px;
   background-color: black;
@@ -40,11 +43,11 @@
 
 .buy-btn {
   position: absolute;
-
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
   background-color: var(--clr-shade);
+
   border-radius: 50%;
   border: 0.8rem solid black;
 }
@@ -91,9 +94,11 @@
 }
 .owner-name {
   color: white;
+  font-weight: 600;
 }
 .item-name {
   color: var(--clr-main);
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -110,8 +115,19 @@
 .price {
   text-transform: capitalize;
   color: var(--clr-main);
+  font-weight: 700;
 }
 
 .date {
   color: white;
+}
+
+.form-submit {
+  background-color: var(--clr-shade);
+  width: 10rem;
+}
+
+.form-submit:hover {
+  background-color: var(--clr-main);
+  color: black !important;
 }

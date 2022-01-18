@@ -8,6 +8,14 @@ const data = [
     img: "https://5.imimg.com/data5/SELLER/Default/2021/6/EB/DX/EO/11998608/gaming-mouse-rgb-multi-colour-500x500.jpg",
   },
   {
+    name: "bhavin kirans sheth",
+    item: "bottles",
+    desc: "ting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it ",
+    price: 10,
+    date: "10 / 10 / 2050",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ2wS8ZFX_oJF4hSz3gtirO9vJk-0Xj7lO8g&usqp=CAU",
+  },
+  {
     name: "ronaldo",
     item: "football",
     desc: "i want to use new mouse so renting the old one, sjdalksfj lsadkjfl kja aksjflkdsaflk alsdk;fj;lkasdjflkjasdkflj lkasdjfklas jdflkjasdlkfj",

@@ -5,11 +5,11 @@ function Sell() {
   return (
     <div className="sell-bg" id="#sell">
       <div className="sell-header">
-        <h3>want to earn some passive income?</h3>
-        <h4>just sell ur useless item!</h4>
+        <h2>want to earn some passive income?</h2>
+        <h3>just sell ur useless item!</h3>
       </div>
 
-      <form action="" className="form section">
+      <form action="" className="form1 section">
         <div className="form-control">
           <p className="input-text">name</p>
           <input
@@ -48,7 +48,8 @@ function Sell() {
           <p className="input-text">images</p>
           <input
             type="image"
-            src="../../images/.bg.jpeg"
+            src="https://static.toiimg.com/photo/msid-87180631/87180631.jpg"
+            style={{ width: "100%", maxWidth: "10rem" }}
             alt=""
             className="curve"
           />
