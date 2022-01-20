@@ -3,7 +3,7 @@ import React from "react";
 
 function Sell() {
   return (
-    <div className="sell-bg" id="#sell">
+    <div className="sell-bg" id="sell">
       <div className="sell-header">
         <h2>want to earn some passive income?</h2>
         <h3>just sell ur useless item!</h3>
@@ -46,13 +46,7 @@ function Sell() {
           />
 
           <p className="input-text">images</p>
-          <input
-            type="image"
-            src="https://static.toiimg.com/photo/msid-87180631/87180631.jpg"
-            style={{ width: "100%", maxWidth: "10rem" }}
-            alt=""
-            className="curve"
-          />
+          <input type="file" alt="" className="curve file" />
         </div>
         <button type="submit" className="form-submit btn">
           post

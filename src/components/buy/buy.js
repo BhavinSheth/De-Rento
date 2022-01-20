@@ -5,7 +5,7 @@ import Product from "./product";
 
 function Buy() {
   return (
-    <div className="buy ">
+    <div className="buy" id="buy">
       {data.map((item) => {
         return <Product {...item} />;
       })}

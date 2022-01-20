@@ -3,6 +3,7 @@
 Variables
 ===============
 */
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
 
 :root {
   /* dark shades of primary color*/
@@ -52,6 +53,7 @@ Variables
   --light-shadow-white: 0 0px 15px 5px rgba(255, 255, 255, 0.3);
   --dark-shadow-white: 0 0px 15px 5px rgba(255, 255, 255, 0.4);
 
+  --ff-secondary: cursive;
   --max-width: 1200px;
   --fixed-width: 620px;
 }
@@ -139,6 +141,12 @@ p {
   max-width: var(--max-width);
 }
 
+.center {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 992px) {
   .section {
     width: 95vw;
@@ -169,6 +177,10 @@ p {
 .app {
   /* max-width: 1300px; */
   margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 #root {

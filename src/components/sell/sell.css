@@ -37,6 +37,7 @@ form {
   width: 100%;
   display: grid;
   grid-template-columns: 0.3fr auto;
+  align-items: center;
   gap: 1rem;
 }
 form:hover {
@@ -80,4 +81,23 @@ textarea {
   font-size: 1rem;
   word-spacing: 0.25rem;
   letter-spacing: 1.5px;
+}
+
+.file {
+  background-color: var(--clr-grey-1);
+  color: var(--clr-grey-8);
+  padding: 0;
+}
+
+.file::-webkit-file-upload-button {
+  background-color: var(--clr-primary-9);
+  border: none;
+  transition: var(--transition);
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+}
+
+.file::-webkit-file-upload-button:hover {
+  background-color: var(--clr-primary-7);
+  cursor: pointer;
 }
