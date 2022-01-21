@@ -9,7 +9,7 @@ function Sell() {
         <h3>just sell ur useless item!</h3>
       </div>
 
-      <form action="" className="form1 section">
+      <form action="" className="form section">
         <div className="form-control">
           <p className="input-text">name</p>
           <input
