@@ -4,6 +4,7 @@ import { links } from "./data";
 import { social } from "./data";
 import Social from "./social";
 import "./nav.css";
+import logo from "./logo.png";
 
 function Nav() {
   const container = useRef(null);
@@ -23,11 +24,7 @@ function Nav() {
   return (
     <nav className="nav-center">
       <div className="nav-header">
-        <img
-          src="https://raw.githubusercontent.com/john-smilga/react-projects/b3aa05dd5a6636c3f03968ba60ed734deda91f00/11-navbar/final/src/logo.svg"
-          alt=""
-          className="logo"
-        />
+        <img src={logo} alt="" className="logo" />
         <button className="nav-toggle" onClick={() => setShow(!show)}>
           <FaBars />
         </button>

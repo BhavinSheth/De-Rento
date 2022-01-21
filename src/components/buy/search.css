@@ -24,6 +24,8 @@
   color: var(--clr-grey-9);
   background-color: black;
   min-width: 25rem;
+  border: none;
+  outline: none;
 }
 
 .search-area::placeholder {

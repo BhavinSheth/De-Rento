@@ -21,15 +21,16 @@
   font-size: 1.2rem;
   /* letter-spacing: 0.6rem !important; */
   display: grid;
-
+  background: linear-gradient(rgba(181, 243, 57, 0.4), rgba(181, 243, 57, 0.15)),
+    url("./de-rento-3.jpg") center;
   gap: 2rem;
   border-radius: 35px;
   padding: 2rem;
   margin: 0 auto;
-  background-color: var(--clr-grey-1);
+  background-color: rgb(181, 243, 57);
   align-items: center;
   justify-items: center;
-  box-shadow: var(--light-shadow-white);
+  /* box-shadow: var(--light-shadow-white); */
   transition: all 0.35s ease-out;
 }
 
@@ -41,7 +42,8 @@
   gap: 1rem;
 }
 .form:hover {
-  box-shadow: var(--dark-shadow-white);
+  box-shadow: var(--light-shadow-white);
+  transform: scale(1.03);
 }
 
 @media screen and (min-width: 700px) {
@@ -59,8 +61,9 @@
 .curve {
   border-radius: 10px;
   padding: 0.6rem 1rem;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
   color: var(--clr-grey-10);
+
   border: none;
   outline: none;
 }
@@ -70,9 +73,13 @@
 }
 
 .input-text {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  border-radius: 10px;
+  padding: 0.25rem 0.5rem;
   text-transform: capitalize;
+  color: black;
   letter-spacing: 1.5px;
-  font-weight: 600;
+  font-weight: 750;
 }
 
 input,
@@ -84,7 +91,7 @@ textarea {
 }
 
 .file {
-  background-color: var(--clr-grey-1);
+  background-color: rgba(0, 0, 0, 0.7);
   color: var(--clr-grey-8);
   padding: 0;
 }
@@ -100,4 +107,14 @@ textarea {
 .file::-webkit-file-upload-button:hover {
   background-color: var(--clr-primary-7);
   cursor: pointer;
+}
+
+.form-submit {
+  background-color: var(--clr-grey-8);
+  width: 10rem;
+}
+
+.form-submit:hover {
+  background-color: black !important;
+  color: var(--clr-grey-9) !important;
 }

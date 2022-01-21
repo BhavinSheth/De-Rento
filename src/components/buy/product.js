@@ -5,9 +5,7 @@ const Product = ({ name, item, desc, price, date, img }) => {
     <div className="product">
       <div className="img-container">
         <img src={img} className="product-img" alt="" />
-        <span>
-          <button className="buy-btn btn">buy</button>
-        </span>
+        <span></span>
       </div>
       <div className="product-desc">
         <div className="product-header">
@@ -23,6 +21,7 @@ const Product = ({ name, item, desc, price, date, img }) => {
             untill <span className="date">{date}</span>
           </p>
         </div>
+        <button className="buy-btn btn">buy</button>
       </div>
     </div>
   );
