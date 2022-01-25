@@ -23,9 +23,15 @@
   padding-left: 2rem;
   color: var(--clr-grey-9);
   background-color: black;
-  min-width: 25rem;
+  /* min-width: 25rem; */
   border: none;
   outline: none;
+}
+
+@media screen and (min-width: 800px) {
+  .search-area {
+    min-width: 25rem;
+  }
 }
 
 .search-area::placeholder {
