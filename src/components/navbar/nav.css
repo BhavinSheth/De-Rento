@@ -67,7 +67,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.4rem 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   .nav-header {
     padding: 0;

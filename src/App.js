@@ -7,6 +7,8 @@ import Home from "./components/home/home";
 import Sell from "./components/sell/sell";
 import Divider from "./components/divider/divider";
 import Buy from "./components/buy/buy";
+import Footer from "./components/footer/footer";
+import Copyright from "./components/footer/copyright";
 // import Profile from "./components/profile/Profile";
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <Home />
         <Buy />
         <Sell />
+        <Footer />
+        <Copyright />
         {/* <Divider /> */}
         {/* <Profile /> */}
       </div>
